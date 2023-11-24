@@ -177,6 +177,10 @@ section{
     margin: auto 0;
 }
 
+.profile-pic{
+    border-radius: 2rem;
+}
+
 .section__text{
     align-self: center;
     text-align: center;
@@ -365,8 +369,8 @@ article .icon{
 
 .project-img{
     border-radius: 2rem;
-    width: 90%;
-    height: 90%;
+    width: 100px;
+    height: 100px;
 }
 
 .project-title{
