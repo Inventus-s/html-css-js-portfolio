@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Download</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        .heading{
+            margin: 2rem;
+            text-align: center;
+            cursor: pointer;
+        }
+
+        .container{
+            /* width: 100vw; */
+            margin: 2rem;
+            display: grid;
+            grid-template-columns: auto auto auto auto;
+        }
+
+        .card{
+            margin: 2rem auto;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 1rem;
+        }
+
+        .card-img{
+            width: 100px;
+            border-radius: 4%;
+        }
+
+        .card-title{
+            cursor: pointer;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1 class="heading">Download</h1>
+    </header>
+    <div class="container">
+        <div class="card">
+            <img class="card-img" src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQxk9rkmGc2FQDNu5nyz0wtUKuEc6VNUoga2usbl1ziXrW26f_R" alt="Animal">
+            <h2 class="card-title" onclick="location.href='https://gofile.io/d/TdVBP5'">Animal 2023 <br> 720p</h2>
+        </div>
+        <div class="card">
+            <img class="card-img" src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQxk9rkmGc2FQDNu5nyz0wtUKuEc6VNUoga2usbl1ziXrW26f_R" alt="Animal">
+            <h2 class="card-title" onclick="location.href='https://gofile.io/d/VZnglR'">Animal 2023 <br> 1080p</h2>
+        </div>
+        <div class="card">
+            <img class="card-img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfkihvtVQ_5d8dFVRBW0y12taSGSHtt0U8xxYh-Rzkrv62AjRB" alt="Sam-Bahadur">
+            <h2 class="card-title" onclick="location.href='https://gofile.io/d/fvnG00'">Sam Bahadur 2023 <br> 720p</h2>
+        </div>
+        <div class="card">
+            <img class="card-img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfkihvtVQ_5d8dFVRBW0y12taSGSHtt0U8xxYh-Rzkrv62AjRB" alt="Sam-Bahadur">
+            <h2 class="card-title" onclick="location.href='https://gofile.io/d/Ge1k54'">Sam Bahadur 2023 <br> 1080p</h2>
+        </div>
+    </div>
+</body>
+</html>
