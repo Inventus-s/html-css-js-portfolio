@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(167, 84, 245);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Poppins, sans-serif;
+}
+
+.container{
+    width: 500px;
+    min-height: 150px;
+    background-color: #fff;
+    border-radius: 20px;
+}
+
+.countryFind{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin: 2.8rem auto;
+}
+
+#countryInput{
+    width: 300px;
+    outline: 0;
+    border-width: 0 0 2px;
+    border-color: blue;
+    padding: 8px 5px;
+    font-size: 18px;
+}
+
+.searchBtn{
+    padding: 7px 15px;
+    border-radius: 15px;
+    background-color: rgb(98, 98, 240);
+    color: #fff;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+}
+#resultBox{
+    margin: 1.8rem;
+}
+.flags-img{
+    display: block;
+    width:45%;
+    min-height: 7.5rem;
+    margin: 1.8rem auto 1.2rem auto;
+}
+
+.container h2{
+    font-weight: 600;
+    color: #222a43;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 1.8rem;
+}
+
+.wrapper{
+    margin-bottom: 1em;
+    letter-spacing: .3px;
+
+}
+
+.container h4{
+    display: inline;
+    font-weight: 500;
+    color: #222a43;
+}
+
+.container span{
+    color: #5d6274;
+}
+
+.container h3{
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: #ff465a;
+}
