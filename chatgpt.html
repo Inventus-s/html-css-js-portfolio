@@ -46,7 +46,7 @@
             userInput.value = ''; // Clear input field
 
             // Send user message to ChatGPT API and receive response
-            const response = await fetch('./functions/chat.js', {
+            const response = await fetch('./functions/chat', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json'
